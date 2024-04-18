@@ -33,7 +33,7 @@ struct StartButtonView: View {
             
             Button(action: {isOnboarding = false}) {
                 HStack(spacing: 8) {
-                    Text("Skip")
+                    Text("Next")
                     
                     Image(systemName: "arrow.right.circle")
                         .imageScale(.large)
