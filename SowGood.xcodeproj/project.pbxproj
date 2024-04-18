@@ -16,6 +16,7 @@
 		004F74AB2BD02D6000E5A843 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F74AA2BD02D6000E5A843 /* SplashScreenView.swift */; };
 		004F74AF2BD12E3F00E5A843 /* SplashScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F74AE2BD12E3F00E5A843 /* SplashScreenModel.swift */; };
 		004F74B12BD132EA00E5A843 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F74B02BD132EA00E5A843 /* HomePageView.swift */; };
+		004F74B32BD1365100E5A843 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004F74B22BD1365100E5A843 /* StartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		004F74AA2BD02D6000E5A843 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		004F74AE2BD12E3F00E5A843 /* SplashScreenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenModel.swift; sourceTree = "<group>"; };
 		004F74B02BD132EA00E5A843 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		004F74B22BD1365100E5A843 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				004F74AE2BD12E3F00E5A843 /* SplashScreenModel.swift */,
 				004F74AA2BD02D6000E5A843 /* SplashScreenView.swift */,
 				004F74B02BD132EA00E5A843 /* HomePageView.swift */,
+				004F74B22BD1365100E5A843 /* StartButtonView.swift */,
 				004F749C2BD020B400E5A843 /* Assets.xcassets */,
 				004F749E2BD020B400E5A843 /* Preview Content */,
 			);
@@ -157,6 +160,7 @@
 				004F74A92BD029B200E5A843 /* SplashScreenOne.swift in Sources */,
 				004F749B2BD020B200E5A843 /* ContentView.swift in Sources */,
 				004F74992BD020B200E5A843 /* SowGoodApp.swift in Sources */,
+				004F74B32BD1365100E5A843 /* StartButtonView.swift in Sources */,
 				004F74B12BD132EA00E5A843 /* HomePageView.swift in Sources */,
 				004F74AB2BD02D6000E5A843 /* SplashScreenView.swift in Sources */,
 			);

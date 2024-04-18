@@ -33,7 +33,7 @@ struct SplashScreenView: View {
                     .multilineTextAlignment(.leading)
                     .padding()
                 
-                HomePageView()
+                StartButtonView()
             }
             
         }
