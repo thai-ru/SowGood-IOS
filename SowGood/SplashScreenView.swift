@@ -15,11 +15,14 @@ struct SplashScreenView: View {
     var body: some View {
         ZStack {
             VStack {
+                Spacer()
                 Image(screen.image)
                     .resizable()
                     .scaledToFit()
                     .cornerRadius(15)
                     .scaleEffect(isAnimating ? 1.0 : 0.6)
+                
+                Spacer()
                 
                 Text(screen.title)
                     .font(.title)
@@ -32,6 +35,8 @@ struct SplashScreenView: View {
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.leading)
                     .padding()
+                
+                Spacer()
                 
                 StartButtonView()
             }

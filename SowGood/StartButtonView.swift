@@ -12,20 +12,41 @@ struct StartButtonView: View {
     @AppStorage("isOnborading") var isOnboarding: Bool?
     
     var body: some View {
-        Button(action: {isOnboarding = false}) {
-            HStack(spacing: 8) {
-                Text("Skip")
-                
-                Image(systemName: "arrow.right.circle")
-                    .imageScale(.large)
+        HStack {
+            Button(action: {isOnboarding = true}) {
+                HStack (spacing: 8){
+                    Image(systemName: "arrow.left.circle")
+                        .imageScale(.large)
+                    
+                    Text("Back")
+                    
+                }
+                .padding(.horizontal, 16)
+                .padding(.vertical, 10)
+                .background(
+                    Capsule().strokeBorder(Color.gray, lineWidth: 1.25)
+                )
             }
-            .padding(.horizontal, 16)
-            .padding(.vertical, 10)
-            .background(
-                Capsule().strokeBorder(Color.gray, lineWidth: 1.25)
-            )
+            .accentColor(.gray)
+            
+            Spacer()
+            
+            Button(action: {isOnboarding = false}) {
+                HStack(spacing: 8) {
+                    Text("Skip")
+                    
+                    Image(systemName: "arrow.right.circle")
+                        .imageScale(.large)
+                }
+                .padding(.horizontal, 16)
+                .padding(.vertical, 10)
+                .background(
+                    Capsule().strokeBorder(Color.gray, lineWidth: 1.25)
+                )
+            }
+            .accentColor(Color.gray)
+            
         }
-        .accentColor(Color.gray)
     }
 }
 
