@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct SowGoodApp: App {
+    
+    @AppStorage("isOnboarding") var isOnboarding: Bool = true
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isOnboarding {
+                SplashScreen()
+            } else {
+                ContentView()
+            }
         }
     }
 }

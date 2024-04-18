@@ -8,11 +8,20 @@
 import SwiftUI
 
 struct SplashScreen: View {
+    
+    var screens: [SplashData] = splashScreenData
+    
     var body: some View {
-        Image("sowgood")
+        TabView {
+            ForEach(screens[0...3]) { item in
+                SplashScreenView(screen: item)
+            }
+        }
+        .tabViewStyle(PageTabViewStyle())
+        .padding(.vertical, 20)
     }
 }
 
 #Preview {
-    SplashScreen()
+    SplashScreen(screens: splashScreenData)
 }
