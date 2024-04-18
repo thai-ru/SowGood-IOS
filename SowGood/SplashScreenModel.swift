@@ -18,6 +18,11 @@ struct SplashData: Identifiable {
 //Dummy Data
 
 let splashScreenData: [SplashData] = [
+    SplashData(
+        title: "SowGood",
+        description: "",
+        image: "sowgood"
+    ),
     
     SplashData(
         title: "Plan Your Farm Tasks Effectively",
